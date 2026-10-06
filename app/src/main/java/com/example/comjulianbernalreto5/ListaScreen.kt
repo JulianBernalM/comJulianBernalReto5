@@ -22,9 +22,12 @@ fun ListaScreen(
     //Elementos Es la lista que se creo anteriormente
     elementos: List<Elemento>,
     //Esta es una función que recibimos desde fuera
-    onElementoClick: (Int) -> Unit
+    onElementoClick: (Int) -> Unit,
+    modifier: Modifier = Modifier
 ) { //Dice algo como: "Recorre todos los elementos de esta lista."
-    LazyColumn {
+    LazyColumn(
+        modifier = modifier
+    ) {
         items(
             elementos,
             //Significa: Obtén el id del elemento actual
