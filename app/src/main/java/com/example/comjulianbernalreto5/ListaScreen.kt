@@ -6,8 +6,6 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxWidth
 //Sirve para agregar espacio alrededor o dentro de un componente.
 import androidx.compose.foundation.layout.padding
-//Usamos el weight
-
 //Crea una lista vertical desplazable.
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items

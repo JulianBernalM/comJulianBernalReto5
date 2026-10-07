@@ -1,6 +1,6 @@
 package com.example.comjulianbernalreto5.model
 
-class Elemento(
+data class Elemento(
     val id: Int,
     val titulo: String,
     val categoria: String,
