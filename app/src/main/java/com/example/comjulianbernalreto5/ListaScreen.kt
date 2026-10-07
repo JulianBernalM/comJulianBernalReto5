@@ -47,8 +47,13 @@ fun ListaScreen(
             //Cada vez que el usuario escriba algo, guarda ese texto en query
             onValueChange = { query = it },
             label = {
-                Text("Buscar por titulo")
-            }
+                Text("Buscar por título")
+            },
+            modifier = Modifier
+                //hace que ocupetodo el ancho disponible.
+                .fillMaxWidth()
+                //le agrega separación alrededor para que no quede pegado a los bordes.
+                .padding(8.dp)
         )
 
         //Dice algo como: "Recorre todos los elementos de esta lista.
@@ -68,7 +73,7 @@ fun ListaScreen(
                     //Dice algo como: A esta tarjeta daletodo el ancho disponible y agrega 8dp de espacio
                     modifier = Modifier
                         .fillMaxWidth()
-                        .padding(8.dp)
+                        .padding(horizontal = 8.dp, vertical = 4.dp)
                         //Dice algo como: Cuando el usuario toque esta tarjeta, ejecuta esto...(onElementoClick(elemento.id))
                         .clickable {
                             onElementoClick(elemento.id)
