@@ -1,0 +1,35 @@
+[33mcommit cac04cff269b7dd01ade2a9eab58891d9f30b7ac[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m)[m
+Author: callcenter19 <callcenter19@ses.local>
+Date:   Wed Oct 7 09:10:31 2026 -0500
+
+    Se dar por terminada la seccion de busqueda por titulo
+
+[33mcommit a7355d04ee764c207558c001e721d34075669726[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: callcenter19 <callcenter19@ses.local>
+Date:   Tue Oct 6 08:54:48 2026 -0500
+
+    Se trabaja en MainActivity y se conecta con la lista de elementos logrando mostrarlos por pantalla
+
+[33mcommit 9a63890e43fc4ade3c8f11ddf2e5f5fae9301291[m
+Author: callcenter19 <callcenter19@ses.local>
+Date:   Mon Oct 5 16:54:52 2026 -0500
+
+    Se trabaja en archivo listaScreen con los comentarios respectivos para comprension del codigo
+
+[33mcommit be143ce5cc447ecc6254ffbdd3553118afaad2e1[m
+Author: callcenter19 <callcenter19@ses.local>
+Date:   Mon Oct 5 15:40:23 2026 -0500
+
+    Se trabaja creando el modelo y Elemento.kt y en la lista de elementos
+
+[33mcommit 114974529118789eac053476af4cdb40d3a53405[m
+Author: callcenter19 <callcenter19@ses.local>
+Date:   Mon Oct 5 12:53:50 2026 -0500
+
+    Se avanza en el paso 1
+
+[33mcommit e51e9a034d7f629dda008ea9790b255159d98fcb[m
+Author: callcenter19 <callcenter19@ses.local>
+Date:   Mon Oct 5 12:18:45 2026 -0500
+
+    Inicio del proyecto

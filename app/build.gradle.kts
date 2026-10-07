@@ -51,4 +51,6 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     debugImplementation(libs.androidx.compose.ui.test.manifest)
     debugImplementation(libs.androidx.compose.ui.tooling)
+    //Importamos para poder trabajar con varias pantallas
+    implementation("androidx.navigation:navigation-compose:2.8.0")
 }
