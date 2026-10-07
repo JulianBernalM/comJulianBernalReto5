@@ -53,4 +53,6 @@ dependencies {
     debugImplementation(libs.androidx.compose.ui.tooling)
     //Importamos para poder trabajar con varias pantallas
     implementation("androidx.navigation:navigation-compose:2.8.0")
+    //Agrego esta dependencia para usar los iconos
+    implementation("androidx.compose.material:material-icons-extended")
 }

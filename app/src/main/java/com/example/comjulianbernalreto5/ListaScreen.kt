@@ -23,6 +23,10 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 //Para el text field
 import androidx.compose.material3.TextField
+//Para agregar los iconos
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.SportsEsports
+import androidx.compose.material3.Icon
 
 @Composable
 fun ListaScreen(
@@ -82,6 +86,11 @@ fun ListaScreen(
                     Column(
                         modifier = Modifier.padding(16.dp)
                     ) {
+
+                        Icon(
+                            imageVector = Icons.Default.SportsEsports,
+                            contentDescription = "Videojuego"
+                        )
                         Text(
                             text = elemento.titulo,
                             style = MaterialTheme.typography.titleMedium
