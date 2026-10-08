@@ -14,3 +14,5 @@ El problema se produce porque cada vez que el usuario toca una tarjeta se ejecut
 La navegación agrega el nuevo destino a la pila de navegación. Si el usuario toca rápidamente la misma tarjeta varias veces, se pueden realizar varias llamadas a `navigate()` antes de que la interfaz termine de mostrar el detalle.
 
 Como resultado, se pueden crear varias instancias de la misma pantalla de detalle dentro de la pila.
+
+## 3 Ruta de captura de pantalla
